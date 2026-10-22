@@ -4,9 +4,15 @@
 
 ## 下载与安装
 
-1. 打开[最新版本](https://github.com/WZXsea/daily-android/releases/latest)，下载 `daily-0.1.6.apk`。同一签名支持覆盖安装已有版本。
+1. 打开[最新版本](https://github.com/WZXsea/daily-android/releases/latest)，下载 `daily-0.1.7.apk`。同一签名支持覆盖安装已有版本。
 2. 安装后输入服务器地址 `https://daily.wzx2002.icu`，以及从自己的网页版账号创建的个人访问令牌（PAT）。令牌由你在首次连接时输入，随后保存在手机受保护存储。
 3. 下载同一版本的 `SHA256SUMS` 校验 APK。
+
+## 0.1.7 更新
+
+- 修复 AI 回复包含标签或待办清单时，出现 `useMemoViewContext` 异常并进入错误页的问题。
+- AI 回复使用独立展示模式，流式输出及历史会话均可显示标签和清单，保留加粗、公式、代码块与表格复制。
+- 保持笔记卡片的标签筛选与任务勾选功能；覆盖升级后继续使用已有本机设置和会话。
 
 ## 0.1.6 更新
 
