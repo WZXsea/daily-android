@@ -4,9 +4,18 @@
 
 ## 下载与安装
 
-1. 打开[最新版本](https://github.com/WZXsea/daily-android/releases/latest)，下载 `daily-0.1.8.apk`。同一签名支持覆盖安装已有版本。
+1. 打开[最新版本](https://github.com/WZXsea/daily-android/releases/latest)，下载 `daily-0.1.9.apk`。同一签名支持覆盖安装已有版本。
 2. 安装后输入服务器地址 `https://daily.wzx2002.icu`，以及从自己的网页版账号创建的个人访问令牌（PAT）。令牌由你在首次连接时输入，随后保存在手机受保护存储。
 3. 下载同一版本的 `SHA256SUMS` 校验 APK。
+
+## 0.1.9 更新
+
+- 安卓 AI 对话可在 API 设置中选择服务器上已保存的 magpie 服务商，一次导入本机，无需再次输入 API 密钥。
+- 默认对话模型为 `workbuddy/deepseek-v4.1-flash`；导入前可修改。
+- 密钥通过设备临时密钥加密交付，保存在 Android Keystore；后续模型请求从手机直连服务商。
+- 服务端已先更新配套接口，magpie 的 TLS 连接、目标模型、流式响应和工具调用经实际验证。
+
+0.1.8 已具备应用内更新入口，可直接检查并安装本版。
 
 ## 0.1.8 更新
 
